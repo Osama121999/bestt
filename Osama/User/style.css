@@ -1,0 +1,8 @@
+.navbar-brand {
+    font-size: 1.8em !important;
+    font-weight: bold;
+    color: #fff !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}

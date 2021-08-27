@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto'!important;
+    background-color: #f1f0ec;
+}
+
+.navbar-brand {
+    font-size: 1.8em !important;
+    font-weight: bold;
+    color: #fff !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner {
+    background-image: url("./img/photo-1504674900247-0877df9cc836.jpg");
+    width: 100%;
+    height: 40%;
+    /* min-height: 60vh; */
+    background-position: center;
+    background-size: cover;
+    padding: 220px 0px 280px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 1;
+}
+
+.welcomeuser {
+    /* font-weight: bold; */
+    color: #fff !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 3em !important;
+    font-weight: bold !important;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+/* .card {
+    width: 270px !important;
+    height: 205px !important;
+} */
+
+.scrool {
+    background-color: black;
+}

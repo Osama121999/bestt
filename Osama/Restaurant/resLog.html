@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<body>
+    <nav class="navbar navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand">Online Food </a>
+            <a href="resSignup.html"> <button class="btn float-right login_btn" type="submit">SIGNUP</button></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 justify-content-center">      
+
+                <div class="card-body">
+                    <h1 class="navbar-brand">Login for Restaurant</h1>
+
+                    <form class="needs-validation" novalidate>
+                        <div class="input-group form-group">
+
+                            <input type="email" class="form-control" placeholder="Email" id="email" aria-describedby="emailHelp">
+                            
+                        </div>
+                        
+                        <div class="input-group form-group">
+
+                            <input type="password" class="form-control" placeholder="Password" id="password">
+                        </div>
+                        
+                        <div class="form-group">
+                            <input onclick="login(event)" type="submit" value="Login" class="btn float-right login_btn">
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./res.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-firestore.js"></script>
+<script src="./resLog.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCVjVd_VXnBXcoI8s0Ep2o0FquwFZziWuE",
+        authDomain: "os-log-c8116.firebaseapp.com",
+        projectId: "os-log-c8116",
+        storageBucket: "os-log-c8116.appspot.com",
+        messagingSenderId: "910053342671",
+        appId: "1:910053342671:web:827feacc657b83789126ba"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
